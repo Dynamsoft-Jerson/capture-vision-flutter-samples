@@ -149,6 +149,8 @@ class _ScannerPageState extends State<ScannerPage> {
     _cvr.stopCapturing();
     _camera.close();
     _cvr.removeResultReceiver(_receiver);
+    _cvr.dispose();
+    _camera.dispose();
   }
 
   @override
