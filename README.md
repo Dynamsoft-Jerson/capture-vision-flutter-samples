@@ -15,39 +15,22 @@ This repository contains multiple samples that show you how use the Dynamsoft Ca
 * Android 5.0 (API Level 21) and higher
 * iOS 13 and higher
 
-## Integration Guide For Your Project
+## Official Docs
 
-- [MRZ Scanner Integration Guide](./guide-scan-mrz.md)
-- [Document Scanner Integration Guide](./guide-scan-document.md)
-- [VIN Scanner Integration Guide](./guide-scan-vin.md)
-
-## API Reference
-
-- [MRZ Scanner API Reference](https://pub.dev/documentation/dynamsoft_mrz_scanner_bundle_flutter/latest/)
-- [Capture Vision API Reference](https://pub.dev/documentation/dynamsoft_capture_vision_flutter/latest/)
+- [Dynamsoft Capture Vision Flutter](https://www.dynamsoft.com/capture-vision/docs/mobile/programming/flutter/)
 
 ## Samples
 
 | Sample Name                  | Description                                                                                                                              |
 |------------------------------|------------------------------------------------------------------------------------------------------------------------------------------|
-| [ScanMRZ](ScanMRZ)           | This sample illustrates how to scan passport and ID cards from video streaming.                                                          |
 | [ScanDocument](ScanDocument) | This sample illustrates how to detect and deskew document pages from the video stream.                                                   |
-| [ScanVIN](ScanVIN)           | This sample illustrates how to Scan the VIN code from a barcode or a text line and extract the vehicle information from video streaming. |
 
 ## How to build and run a sample
 
 ### Step 1: Enter a sample folder that you want to try
 
 ```bash
-cd ScanMRZ
-```
-or
-```bash
 cd ScanDocument
-```
-or
-```bash
-cd ScanVIN
 ```
 
 ### Step 2: Fetch and install the dependencies of this example project via Flutter CLI:
